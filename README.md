@@ -81,7 +81,7 @@ Each actuator’s target and measured pressure (in hPa) are displayed along with
   <img src="UserInterfaceDemo.png" width="400">
 </p>
 Users can:
-- Adjust actuator length using the on-screen sliders (0.00-1.00 extension)
-- Observe real-time sensor readings from **LPS35HW** pressure sensors  
-- Control the gripper finger states (`Finger State` button, `R` for **Release**, `G` for **Gripped**)  
-- Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
+  - Adjust actuator length using the on-screen sliders (0.00-1.00 extension)
+  - Observe real-time sensor readings from **LPS35HW** pressure sensors  
+  - Control the gripper finger states (`Finger State` button, `R` for **Release**, `G` for **Gripped**)  
+  - Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
