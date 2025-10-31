@@ -1,0 +1,8 @@
+# === Gripper Control Project Dependencies ===
+# Python version: >=3.8 recommended
+
+# --- UI and Game/Display Framework ---
+pygame>=2.5.0           # 用于界面显示、按键控制、绘图等功能
+
+# --- Serial Communication with Arduino ---
+pyserial>=3.5           # 提供 serial.Serial 类，实现与 Arduino 通信
