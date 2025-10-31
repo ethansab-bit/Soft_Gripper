@@ -12,9 +12,9 @@ Official code repository for the paper:
 
 † *Project Lead* | * Corresponding Author  
 
-📧 **Emails:**  
-- `{dongheon, ethansab, dadaaa, dbruder}@umich.edu`  
-- `{xiaohaox, yszhou, wangjq, xiaonanh}@umich.edu`
+**Emails:**  
+- (dongheon, ethansab, dadaaa, dbruder)@umich.edu`  
+- (xiaohaox, yszhou, wangjq, xiaonanh)@umich.edu`
 
 ## Overview
 This repository provides the control and communication code for the modular soft gripper system described in the paper.
@@ -31,6 +31,15 @@ main/
 ├── requirements.txt
 └── README.md
 ```
+
+## Clone the Repository
+To download or clone this repository:
+### Option 1 — Using HTTPS
+```bash
+git clone https://github.com/ethansab-bit/Soft_Gripper.git
+```
+### Option 2 — Download ZIP
+Click the **Code → Download ZIP** button on GitHub, then unzip the project folder locally.
 
 ## Requirements
 ### Python Environment
