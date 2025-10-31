@@ -31,11 +31,12 @@ main/
 - Required Libraries:
   1. [Adafruit LPS35HW Library](https://github.com/adafruit/Adafruit_LPS35HW) (Provides the   `Adafruit_LPS35HW.h` header used for pressure sensing)
   2. [Adafruit Sensor Library](https://github.com/adafruit/Adafruit_Sensor) (Dependency required by LPS35HW library)
+  
   To install:
-  1. Open **Arduino IDE**
-  2. Go to **Tools → Manage Libraries...**
-  3. Search for **“Adafruit LPS35HW”**
-  4. Click **Install** (this will automatically install its dependencies)
+    1. Open **Arduino IDE**
+    2. Go to **Tools → Manage Libraries...**
+    3. Search for **“Adafruit LPS35HW”**
+    4. Click **Install** (this will automatically install its dependencies)
 
 ## Usage
 ### Upload the Arduino Code
