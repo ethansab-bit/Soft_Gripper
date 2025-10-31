@@ -75,6 +75,13 @@ python Python/GripperControl.py --port COM4
 This command launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback. Make sure to replace `COM4` with the serial port corresponding to your Arduino Control Board. You can check the active serial port under **Tools → Port** in the **Arduino IDE**. If `--port ...` is omitted, the program will use the default port setting `COM4`.
 
 ### Control Interface Operation
+The graphical user interface (GUI) allows users to control and monitor each pneumatic actuator of the soft gripper in real time.  
+Each actuator’s target and measured pressure (in hPa) are displayed along with control sliders and state indicators.
 <p align="center">
   <img src="UserInterfaceDemo.png" width="400">
 </p>
+Users can:
+- Adjust actuator length using the on-screen sliders (0.00-1.00 extension)
+- Observe real-time sensor readings from **LPS35HW** pressure sensors  
+- Control the gripper finger states (`Finger State` button, `R` for **Release**, `G` for **Gripped**)  
+- Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
