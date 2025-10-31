@@ -46,6 +46,14 @@ main/
 
 ## Run the Python Control Interface
 ```bash
-python GripperControl.py
+python Python/GripperControl.py --port COM4
 ```
-This launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback.
+This command launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback. Make sure to replace `COM4` with the serial port corresponding to your Arduino Control Board. You can check the active serial port under **Tools → Port** in the **Arduino IDE**. If `--port ...` is omitted, the program will use the default port setting `COM4`.
+
+## Authors
+*Dong Heon Han¹, Xiaohao Xu²†, Yuxi Chen¹, Yusheng Zhou², Xinqi Zhang¹, Jiaqi Wang², Daniel Bruder¹, Xiaonan Huang²***  
+
+¹ *Mechanical Engineering Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA* 
+  - `{dongheon, ethansab, dadaaa, dbruder}@umich.edu`  
+² *Robotics Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA*
+  - `{xiaohaox, yszhou, wangjq, xiaonanh}@umich.edu` 
