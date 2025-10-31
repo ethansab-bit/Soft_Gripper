@@ -1,1 +1,0 @@
-// Gripper Arduino main code
