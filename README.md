@@ -28,3 +28,8 @@ main/
 ## Arduino Environment
 - Arduino IDE ≥ 2.0
 - Required Libraries: [Adafruit PWM Servo Driver Library](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) (Provides the Adafruit_PWMServoDriver.h header)
+  To install:
+  1. Open Arduino IDE
+  2. Go to Tools → Manage Libraries...
+  3. Search for “Adafruit PWM Servo Driver”
+  4. Click Install
