@@ -72,7 +72,7 @@ Click the **Code → Download ZIP** button on GitHub, then unzip the project fol
 ```bash
 python Python/GripperControl.py --port COM4
 ```
-This command launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback. Make sure to replace `COM4` with the serial port corresponding to your Arduino Control Board. You can check the active serial port under **Tools → Port** in the **Arduino IDE**. If `--port ...` is omitted, the program will use the default port setting `COM4`.
+This command launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback. Make sure to **replace** `COM4` **with the serial port corresponding to your Arduino Control Board**. You can check the active serial port under **Tools → Port** in the **Arduino IDE**. If `--port ...` is omitted, the program will use the default port setting `COM4`.
 
 ### Control Interface Operation
 The graphical user interface (GUI) allows users to control and monitor each pneumatic actuator of the soft gripper in real time.  
