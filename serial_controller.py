@@ -25,14 +25,12 @@ class SerialController:
                 line = self.ser.readline().decode('utf-8').strip()
                 parts = line.split()
 
-                # 原来 12 个量
                 if len(parts) == 12:
                     curPre = list(map(float, parts[:4]))
                     stopFlag = parts[4:8]
                     graspFlag = parts[8:12]
                     return curPre, stopFlag, graspFlag, None
 
-                # 新的 16 个量（多出 4 个弯曲传感器）
                 if len(parts) == 16:
                     curPre = list(map(float, parts[:4]))
                     stopFlag = parts[4:8]
@@ -48,4 +46,5 @@ class SerialController:
 
     def close(self):
         self.ser.close()
+
         print("Serial connection closed.")
