@@ -3,11 +3,11 @@
 Official code repository for the paper:  
 **"Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping"**
 
-# Overview
+## Overview
 This repository provides the control and communication code for the modular soft gripper system described in the paper.
 The system integrates Arduino-based low-level actuation and a Python control interface for proprioceptive feedback and grasp modulation.
 
-# Repository Structure
+## Repository Structure
 ```bash
 main/
 ├── Gripper_FullCode/
@@ -19,14 +19,14 @@ main/
 └── README.md
 ```
 
-# Requirements
-## Python Environment
+## Requirements
+### Python Environment
 - Python ≥ 3.8
 - Install required dependencies:
   ```bash
   pip install -r requirements.txt
   ```
-## Arduino Environment
+### Arduino Environment
 - Arduino IDE ≥ 2.0
 - Required Libraries:
   1. [Adafruit LPS35HW Library](https://github.com/adafruit/Adafruit_LPS35HW) (Provides the   `Adafruit_LPS35HW.h` header used for pressure sensing)
@@ -37,14 +37,14 @@ main/
   3. Search for **“Adafruit LPS35HW”**
   4. Click **Install** (this will automatically install its dependencies)
 
-# Usage
-## Upload the Arduino Code
+## Usage
+### Upload the Arduino Code
 1. Open `Arduino/Gripper_FullCode.ino` in **Arduino IDE**
 2. Ensure the **Adafruit_LPS35HW** and **Adafruit_Sensor** libraries are installed
 3. Select the correct **Board** and **Port**
 4. Click **Upload**
 
-## Run the Python Control Interface
+### Run the Python Control Interface
 ```bash
 python Python/GripperControl.py --port COM4
 ```
