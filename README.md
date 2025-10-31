@@ -13,8 +13,8 @@ Official code repository for the paper:
 † *Project Lead* | * Corresponding Author  
 
 **Emails:**  
-- (dongheon, ethansab, dadaaa, dbruder)@umich.edu`  
-- (xiaohaox, yszhou, wangjq, xiaonanh)@umich.edu`
+- (dongheon, ethansab, dadaaa, dbruder)@umich.edu
+- (xiaohaox, yszhou, wangjq, xiaonanh)@umich.edu
 
 ## Overview
 This repository provides the control and communication code for the modular soft gripper system described in the paper.
