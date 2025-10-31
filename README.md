@@ -25,11 +25,27 @@ main/
 - Install required dependencies:
   ```bash
   pip install -r requirements.txt
+  ```
 ## Arduino Environment
 - Arduino IDE ≥ 2.0
-- Required Libraries: [Adafruit PWM Servo Driver Library](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) (Provides the Adafruit_PWMServoDriver.h header)
+- Required Libraries:
+  1. [Adafruit LPS35HW Library](https://github.com/adafruit/Adafruit_LPS35HW) (Provides the   `Adafruit_LPS35HW.h` header used for pressure sensing)
+  2. [Adafruit Sensor Library](https://github.com/adafruit/Adafruit_Sensor) (Dependency required by LPS35HW library)
   To install:
-  1. Open Arduino IDE
-  2. Go to Tools → Manage Libraries...
-  3. Search for “Adafruit PWM Servo Driver”
-  4. Click Install
+  1. Open **Arduino IDE**
+  2. Go to **Tools → Manage Libraries...**
+  3. Search for **“Adafruit LPS35HW”**
+  4. Click **Install** (this will automatically install its dependencies)
+
+# Usage
+## Upload the Arduino Code
+1. Open `Arduino/Gripper_FullCode.ino` in **Arduino IDE**
+2. Ensure the **Adafruit_LPS35HW** and **Adafruit_Sensor** libraries are installed
+3. Select the correct **Board** and **Port**
+4. Click **Upload**
+
+## Run the Python Control Interface
+```bash
+python GripperControl.py
+```
+This launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback.
