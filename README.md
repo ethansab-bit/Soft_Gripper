@@ -3,7 +3,7 @@
 Official code repository for the paper:  
 **"Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping"**
 
-## 🧑‍🔬 Authors
+## Authors
 
 **Dong Heon Han¹, Xiaohao Xu²†, Yuxi Chen¹, Yusheng Zhou², Xinqi Zhang¹, Jiaqi Wang², Daniel Bruder¹, Xiaonan Huang²***  
 
