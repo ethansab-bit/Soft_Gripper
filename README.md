@@ -3,6 +3,19 @@
 Official code repository for the paper:  
 **"Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping"**
 
+## 🧑‍🔬 Authors
+
+**Dong Heon Han¹, Xiaohao Xu²†, Yuxi Chen¹, Yusheng Zhou², Xinqi Zhang¹, Jiaqi Wang², Daniel Bruder¹, Xiaonan Huang²***  
+
+¹ *Mechanical Engineering Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA*  
+² *Robotics Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA*  
+
+† *Project Lead* | * Corresponding Author  
+
+📧 **Emails:**  
+- `{dongheon, ethansab, dadaaa, dbruder}@umich.edu`  
+- `{xiaohaox, yszhou, wangjq, xiaonanh}@umich.edu`
+
 ## Overview
 This repository provides the control and communication code for the modular soft gripper system described in the paper.
 The system integrates Arduino-based low-level actuation and a Python control interface for proprioceptive feedback and grasp modulation.
@@ -50,12 +63,3 @@ main/
 python Python/GripperControl.py --port COM4
 ```
 This command launches the UI for controlling the gripper and visualizing proprioceptive (pressure-based) feedback. Make sure to replace `COM4` with the serial port corresponding to your Arduino Control Board. You can check the active serial port under **Tools → Port** in the **Arduino IDE**. If `--port ...` is omitted, the program will use the default port setting `COM4`.
-
-## Authors
-*Dong Heon Han¹, Xiaohao Xu², Yuxi Chen¹, Yusheng Zhou², Xinqi Zhang¹, Jiaqi Wang², Daniel Bruder¹, Xiaonan Huang²*  
-
-¹ *Mechanical Engineering Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA* 
-  - `{dongheon, ethansab, dadaaa, dbruder}@umich.edu`
-    
-² *Robotics Department, University of Michigan – Ann Arbor, Ann Arbor, MI, USA*
-  - `{xiaohaox, yszhou, wangjq, xiaonanh}@umich.edu` 
