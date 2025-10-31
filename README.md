@@ -8,6 +8,7 @@ This repository provides the control and communication code for the modular soft
 The system integrates Arduino-based low-level actuation and a Python control interface for proprioceptive feedback and grasp modulation.
 
 # Repository Structure
+```bash
 GripperControl/
 ├── Arduino/
 │   └── Gripper_FullCode.ino        # Firmware controlling the modular soft gripper
@@ -17,6 +18,7 @@ GripperControl/
 │   └── uipic.png                   # UI illustration
 ├── requirements.txt
 └── README.md
+```
 
 # Requirements
 ## Python Environment
