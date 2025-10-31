@@ -4,6 +4,17 @@ import math
 import os
 import sys
 import time
+import argparse
+from serial_controller import SerialController
+
+def main():
+    parser = argparse.ArgumentParser(description="Gripper Control Panel")
+    parser.add_argument("--port", type=str, default="COM4",
+                        help="Serial port for Arduino connection (e.g. COM3 or /dev/cu.usbmodem101)")
+    args = parser.parse_args()
+
+    sc = SerialController(args.port)
+    print(f"Connected to serial port: {args.port}")
 
 # ===== Color Theme =====
 COLOR_BG         = (15, 15, 15)
@@ -53,14 +64,6 @@ STOP_BTN_RECT = pygame.Rect(650, 80, 100, 40)
 
 GRIP_CENTER = [[225, 410], [684, 410], [684, 868], [225, 868]]
 
-# ===== USING MOCK OR NOT =====
-USE_MOCK = False
-if USE_MOCK:
-    from mock_serial_controller import SerialController
-else:
-    from serial_controller import SerialController
-
-
 # ===== Initialize Pygame =====
 pygame.init()
 screen = pygame.display.set_mode((WIN_W, WIN_H))
@@ -73,7 +76,6 @@ bold_font = pygame.font.SysFont(FONT_NAME, FONT_SIZE_LARGE, bold=True)
 small_font = pygame.font.SysFont(FONT_NAME, FONT_SIZE_SMALL)
 
 # ===== Initialize Variable =====
-sc = SerialController("/dev/cu.usbmodem11101")
 curPre = [0, 0, 0, 0]
 stopFlag = ['T', 'T', 'T', 'T']
 graspFlag = [0, 0, 0, 0]
@@ -371,3 +373,6 @@ while running:
 
 sc.close()
 pygame.quit()
+
+if __name__ == "__main__":
+    main()
