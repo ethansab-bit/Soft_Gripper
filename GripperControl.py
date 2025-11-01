@@ -288,7 +288,6 @@ while running:
         stopFlag = outFlag
         graspFlag = outGrasp
 
-    # 如果开启了日志，就写 bendVals
     if bendVals and logging_bend and bend_file:
         bend_file.write(" ".join(map(str, bendVals)) + "\n")
 
@@ -376,3 +375,4 @@ pygame.quit()
 
 if __name__ == "__main__":
     main()
+
