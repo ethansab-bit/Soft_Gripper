@@ -26,6 +26,7 @@ The system integrates Arduino-based low-level actuation and a Python control int
 ## Repository Structure
 ```bash
 main/
+├── Gripper_CAD/                    # CAD files
 ├── Gripper_FullCode/
 │   └── Gripper_FullCode.ino        # Firmware controlling the modular soft gripper
 ├── GripperControl.py               # Main Python UI and control logic
