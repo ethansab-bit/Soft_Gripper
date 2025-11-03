@@ -84,7 +84,7 @@ All **VCC pins** of the LPS3X pressure sensors should be connected to the **3.3 
 
 The complete wiring layout is illustrated in the diagram below:
 <p align="center">
-  <img src="Schematic_Gripper.png" width="400">
+  <img src="Schematic_Gripper.png" width="600">
 </p>
 
 ### Upload the Arduino Code
@@ -107,7 +107,7 @@ This command launches the UI for controlling the gripper and visualizing proprio
 The graphical user interface (GUI) allows users to control and monitor each pneumatic actuator of the soft gripper in real time.  
 Each actuator’s target and measured pressure (in hPa) are displayed along with control sliders and state indicators.
 <p align="center">
-  <img src="UserInterfaceDemo.png" width="800">
+  <img src="UserInterfaceDemo.png" width="600">
 </p>
 Users can:
 
