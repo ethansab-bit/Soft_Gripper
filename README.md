@@ -1,7 +1,5 @@
 # Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping
 
-<img width="3254" height="2125" alt="gripper" src="https://github.com/user-attachments/assets/5f796bc7-1240-41e1-9155-8dff4d47e776" />
-
 Official code repository for the paper:  
 **"Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping"**
 
