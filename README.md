@@ -114,6 +114,7 @@ Users can:
   - Observe real-time sensor readings from **LPS35HW** pressure sensors  
   - Control the gripper finger states (`Finger State` button, `R` for **Release**, `G` for **Gripped**)  
   - Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
+  - Recalibrate the actuator (`Restart`). The system will release all air pressure in actuators and fingers and automatically recalibrate to atmospheric pressure within a few seconds.
 
 ---
 
