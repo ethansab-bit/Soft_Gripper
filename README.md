@@ -4,8 +4,6 @@
 Official code repository for the paper:  
 **"Whole-Body Proprioceptive Morphing: A Modular Soft Gripper for Robust Cross-Scale Grasping"**
 
-![12](https://github.com/user-attachments/assets/b69f5b96-6e33-4ad1-bd7d-9442dde02a9f)
-
 ## Authors
 
 **Dong Heon Han¹, Xiaohao Xu²†, Yuxi Chen¹, Yusheng Zhou², Xinqi Zhang¹, Jiaqi Wang², Daniel Bruder¹, Xiaonan Huang²***  
@@ -18,6 +16,8 @@ Official code repository for the paper:
 **Emails:**  
 - (dongheon, ethansab, dadaaa, dbruder)@umich.edu
 - (xiaohaox, yszhou, wangjq, xiaonanh)@umich.edu
+
+![12](https://github.com/user-attachments/assets/b69f5b96-6e33-4ad1-bd7d-9442dde02a9f)
 
 ## Overview
 This repository provides the control and communication code for the modular soft gripper system described in the paper.
