@@ -3,18 +3,18 @@
 #include <math.h>
 
 // Port Declaration
-#define SCK 52
-#define SDO 50
-#define SDI 51
+#define SCK 12
+#define SDO 11
+#define SDI 10
 const int CSP[4] = {6, 7, 8, 9};
 
-const int BS[4] = {A2, A3, A0, A1};
+const int BS[4] = {A2, A3, A4, A5};
 
 const int ActIn[4]  = {22, 24, 26, 28};
 const int ActOut[4] = {23, 25, 27, 29};
 
-const int FinIn = 2;
-const int FinOut = 3;
+const int FinIn = 13;
+const int FinOut = 14;
 
 // Pressure Sensor
 Adafruit_LPS35HW preSensor[4] = {Adafruit_LPS35HW(), Adafruit_LPS35HW(), Adafruit_LPS35HW(), Adafruit_LPS35HW()};
