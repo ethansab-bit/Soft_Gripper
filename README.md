@@ -107,3 +107,8 @@ Users can:
   - Observe real-time sensor readings from **LPS35HW** pressure sensors  
   - Control the gripper finger states (`Finger State` button, `R` for **Release**, `G` for **Gripped**)  
   - Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
+
+---
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
