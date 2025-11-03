@@ -71,7 +71,9 @@ The control system requires the following electric devices:
   - Bending Sensor * 4
 
 The Mega2560 Control board should be connected with the computer **all the time**, and all L298Ns and bending sensors should be connected to a 5V voltage source. Each bending sensor need to be connected to a 15kOhm resistance before connecting to the Ground. A wire should be connected before the resistances and the analog ports on Mega2560 (A0-A15). All Vcc Port of LPS3X should be connected to 3.3V port on Mega2560. The detail wiring diagram is shown on the following figure.
-
+<p align="center">
+  <img src="Schematic_Gripper.png" width="400">
+</p>
 
 ### Upload the Arduino Code
 1. Open `Arduino/Gripper_FullCode.ino` in **Arduino IDE**
