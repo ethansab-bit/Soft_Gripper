@@ -120,6 +120,8 @@ Users can:
 ## CAD Files
 All CAD resources for the soft gripper are organized within the repository: Soft_Gripper / Gripper_CAD
 
+## Paper: 
+arxiv: https://arxiv.org/abs/2510.27666
 ---
 
 ## License
