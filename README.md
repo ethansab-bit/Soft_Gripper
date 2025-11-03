@@ -116,6 +116,9 @@ Users can:
   - Log the data from four bending sensors (`Log BS`). The data will be stored in the same directory as `bend_log.txt`.
   - Recalibrate the actuator (`Restart`). The system will release all air pressure in actuators and fingers and automatically recalibrate to atmospheric pressure within a few seconds.
 
+## CAD Files
+All CAD resources for the soft gripper are organized within the repository: Soft_Gripper / Gripper_CAD
+
 ---
 
 ## License
