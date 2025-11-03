@@ -64,13 +64,20 @@ Click the **Code → Download ZIP** button on GitHub, then unzip the project fol
 ## Usage
 ### System Wiring
 The control system requires the following electric devices:
-  - Arduino Mega2560 Control Board * 1
-  - L298N Motor Driver * 3
-  - X605LF Valve * 10
-  - LPS3X Pressure Sensor * 4
-  - Bending Sensor * 4
+  - Arduino Mega2560 Control Board × 1
+  - L298N Motor Driver × 3
+  - X605LF Valve × 10
+  - LPS3X Pressure Sensor × 4
+  - Bending Sensor × 4
 
-The Mega2560 Control board should be connected with the computer **all the time**, and all L298Ns and bending sensors should be connected to a 5V voltage source. Each bending sensor need to be connected to a 15kOhm resistance before connecting to the Ground. A wire should be connected before the resistances and the analog ports on Mega2560 (A0-A15). All Vcc Port of LPS3X should be connected to 3.3V port on Mega2560. The detail wiring diagram is shown on the following figure.
+The **Arduino Mega2560** should remain connected to the computer **at all times** for communication and control.
+All **L298N motor drivers** and bending sensors must be powered by a **5 V** source.
+
+Each bending sensor should be connected in series with a **15 kΩ resistor** to ground. The junction point between the sensor and the resistor should be wired to one of the **analog input ports (A0–A15)** on the Mega2560.
+
+All **VCC pins** of the LPS3X pressure sensors should be connected to the **3.3 V output** on the Mega2560.
+
+The complete wiring layout is illustrated in the diagram below:
 <p align="center">
   <img src="Schematic_Gripper.png" width="400">
 </p>
