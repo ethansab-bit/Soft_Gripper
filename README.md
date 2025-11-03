@@ -62,6 +62,17 @@ Click the **Code → Download ZIP** button on GitHub, then unzip the project fol
     4. Click **Install** (this will automatically install its dependencies)
 
 ## Usage
+### System Wiring
+The control system requires the following electric devices:
+  - Arduino Mega2560 Control Board * 1
+  - L298N Motor Driver * 3
+  - X605LF Valve * 10
+  - LPS3X Pressure Sensor * 4
+  - Bending Sensor * 4
+
+The Mega2560 Control board should be connected with the computer **all the time**, and all L298Ns and bending sensors should be connected to a 5V voltage source. Each bending sensor need to be connected to a 15kOhm resistance before connecting to the Ground. A wire should be connected before the resistances and the analog ports on Mega2560 (A0-A15). All Vcc Port of LPS3X should be connected to 3.3V port on Mega2560. The detail wiring diagram is shown on the following figure.
+
+
 ### Upload the Arduino Code
 1. Open `Arduino/Gripper_FullCode.ino` in **Arduino IDE**
 2. Ensure the **Adafruit_LPS35HW** and **Adafruit_Sensor** libraries are installed
