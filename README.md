@@ -29,6 +29,7 @@ main/
 ├── serial_controller.py            # Handles serial communication with Arduino
 ├── uipic.png                       # UI illustration
 ├── UserInterfaceDemo.png
+├── Schematic_Gripper.png
 ├── requirements.txt
 └── README.md
 ```
