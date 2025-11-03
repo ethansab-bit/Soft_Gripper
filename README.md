@@ -107,7 +107,7 @@ This command launches the UI for controlling the gripper and visualizing proprio
 The graphical user interface (GUI) allows users to control and monitor each pneumatic actuator of the soft gripper in real time.  
 Each actuator’s target and measured pressure (in hPa) are displayed along with control sliders and state indicators.
 <p align="center">
-  <img src="UserInterfaceDemo.png" width="400">
+  <img src="UserInterfaceDemo.png" width="800">
 </p>
 Users can:
 
