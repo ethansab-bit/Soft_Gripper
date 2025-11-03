@@ -84,10 +84,12 @@ The complete wiring layout is illustrated in the diagram below:
 </p>
 
 ### Upload the Arduino Code
-1. Open `Arduino/Gripper_FullCode.ino` in **Arduino IDE**
+1. Open `Gripper_FullCode/Gripper_FullCode.ino` in **Arduino IDE**
 2. Ensure the **Adafruit_LPS35HW** and **Adafruit_Sensor** libraries are installed
 3. Select the correct **Board** and **Port**
 4. Click **Upload**
+
+**Notice**: The `Gripper_FullCode.ino` file **must remain inside its folder with the same name** (`Gripper_FullCode/`). Otherwise, the Arduino IDE will not be able to locate dependencies and compile the code.
 
 ### Run the Python Control Interface
 ```bash
