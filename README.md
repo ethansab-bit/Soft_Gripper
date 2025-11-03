@@ -122,6 +122,7 @@ All CAD resources for the soft gripper are organized within the repository: Soft
 
 ## Paper
 arxiv: https://arxiv.org/abs/2510.27666
+
 ---
 
 ## License
